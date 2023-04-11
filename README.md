@@ -1,4 +1,4 @@
-# SimStream
+# SimStreamer
 
 ## NOTICE
 
@@ -47,13 +47,13 @@ create table lineitem like snowflake_sample_data.tpch_sf1.lineitem;
 
 ## Use compiled jar
 
-- You can use the 'IceStream.jar' compiled jar from the target subdirectory.
+- You can use the 'SimStreamer.jar' compiled jar from the target subdirectory.
 - You need to customize the connection.jar file with [properties](https://docs.snowflake.com/en/user-guide/data-load-snowpipe-streaming-overview#snowpipe-streaming-properties) pertaining to your Snowflake target account.
 - You can leave the simulation.json as-is, and customize the number of rows you want to stream and the number of channels you want to open to load rowsets in parallel. 
 - You can now execute the jar as follows:
 
 ```
-java -jar SimStream.jar --help
+java -jar SimStreamer.jar --help
 Unrecognized option: --help
 usage: Usage:
  -c,--connection_parms <arg>   Path to connection.json file
@@ -64,7 +64,7 @@ usage: Usage:
 - Once you have filled the connection.json & customized the simulation.json, you can run it as following:
 
 ```
-java -jar SimStream.jar -c connection.json -s simulation.json -u tpch
+java -jar SimStreamer.jar -c connection.json -s simulation.json -u tpch
 ```
 
 ## Compile from source
@@ -76,5 +76,5 @@ java -jar SimStream.jar -c connection.json -s simulation.json -u tpch
 mvn package
 ```
 
-- This will generate a `SimStream-1.0-SNAPSHOT-jar-with-dependencies.jar` under target directory that you can rename as `SimStream.jar`.
+- This will generate a `SimStreamer.jar` under target directory that you can rename as `SimStreamer.jar`.
 
