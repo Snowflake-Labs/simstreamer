@@ -1,4 +1,4 @@
-# IceStream
+# SimStream
 
 ## NOTICE
 
@@ -53,7 +53,7 @@ create table lineitem like snowflake_sample_data.tpch_sf1.lineitem;
 - You can now execute the jar as follows:
 
 ```
-java -jar IceStream.jar --help
+java -jar SimStream.jar --help
 Unrecognized option: --help
 usage: Usage:
  -c,--connection_parms <arg>   Path to connection.json file
@@ -64,7 +64,7 @@ usage: Usage:
 - Once you have filled the connection.json & customized the simulation.json, you can run it as following:
 
 ```
-java -jar IceStream.jar -c connection.json -s simulation.json -u tpch
+java -jar SimStream.jar -c connection.json -s simulation.json -u tpch
 ```
 
 ## Compile from source
@@ -76,5 +76,5 @@ java -jar IceStream.jar -c connection.json -s simulation.json -u tpch
 mvn package
 ```
 
-- This will generate a `IceStream-1.0-SNAPSHOT-jar-with-dependencies.jar` under target directory that you can rename as `IceStream.jar`.
+- This will generate a `SimStream-1.0-SNAPSHOT-jar-with-dependencies.jar` under target directory that you can rename as `SimStream.jar`.
 
