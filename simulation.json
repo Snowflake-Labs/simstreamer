@@ -1,0 +1,12 @@
+{
+  "l_orderkey_start": 60000001,
+  "l_partkey_min": 1,
+  "l_partkey_max": 200000,
+  "l_suppkey_min": 1,
+  "l_suppkey_max": 10000,
+  "l_shipdate_min": "1992-01-02",
+  "l_shipdate_max": "1998-12-01",
+  "totalRowsinTable": 100000000,
+  "num_channels": 10,
+  "sleep_ms": 0
+}

@@ -1,0 +1,15 @@
+{
+  "user": "<user-id>",
+  "url": "https://<account-name>.snowflakecomputing.com:443",
+  "account": "<account-name>",
+  "private_key": "<private_key.pem>",
+  "port": 443,
+  "host": "<account-name>.snowflakecomputing.com",
+  "schema": "public",
+  "scheme": "https",
+  "database": "<db-name>",
+  "connect_string": "jdbc:snowflake://<account-name>.snowflakecomputing.com:443",
+  "ssl": "on",
+  "warehouse": "<warehouse-name>",
+  "role": "<role>"
+}
