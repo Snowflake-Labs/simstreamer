@@ -83,5 +83,5 @@ java -jar SimStreamer.jar -c connection.json -s simulation.json -u tpch
 mvn package
 ```
 
-- This will generate a `SimStreamer.jar` under target directory that you can rename as `SimStreamer.jar`.
+- This will generate a `SimStreamer-1.0-SNAPSHOT-jar-with-dependencies.jar` under target directory that you can rename as `SimStreamer.jar`.
 
