@@ -1,5 +1,5 @@
 {
-  "l_orderkey_start": 60000001,
+  "l_orderkey_start": 1,
   "l_partkey_min": 1,
   "l_partkey_max": 200000,
   "l_suppkey_min": 1,
