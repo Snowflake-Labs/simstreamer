@@ -6,7 +6,7 @@
   "l_suppkey_max": 10000,
   "l_shipdate_min": "1992-01-02",
   "l_shipdate_max": "1998-12-01",
-  "totalRowsinTable": 100000000,
-  "num_channels": 10,
+  "totalRowsinTable": 1000000,
+  "num_channels": 4,
   "sleep_ms": 0
 }
